@@ -1,0 +1,7 @@
+class Tugas01{
+public static void main(String[] args){
+	System.out.println("Nama Anang Ma'ruf Budiyanto");
+	System.out.println("NIM 18520244001");
+	System.out.println("Alamat Kemasan, Singosaren, Banguntapan, Bantul");
+}
+}
