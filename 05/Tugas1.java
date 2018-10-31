@@ -52,7 +52,7 @@ class Tugas1 {
             }
             System.out.println("=========================================");
             try {
-                System.out.print("Hiutng Ulang? (Y/N)");
+                System.out.print("Hitung Ulang? (Y/N)");
                 ulang = bf.readLine();
             } catch (IOException e) {
                 System.out.print("[ERROR] " + e);
