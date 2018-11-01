@@ -60,7 +60,7 @@ class Tugas{
         }else if(nilai > 50.0 && nilai <= 55.0){
             System.out.println("Nilai = D");
             //lanjut if
-        }else if(nilai n<= 50.0){
+        }else if(nilai<= 50.0){
             System.out.println("Nilai = E");
             //terakhir apabila semua nilai diatas false
             }else{
