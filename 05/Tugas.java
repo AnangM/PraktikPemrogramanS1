@@ -58,7 +58,7 @@ class Tugas{
             //lanjut if
         }else if(nilai <= 50.0){
             System.out.println("Nilai = E");
-            //terakhir apabila tidak semua nilai false
+            //terakhir apabila semua nilai diatas false
             }else{
                 System.out.println("[ERROR]" + nilai);
             }
