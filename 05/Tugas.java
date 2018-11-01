@@ -19,7 +19,11 @@ class Tugas{
                 //get user input
                 input = bf.readLine();
                 //convert String to Double
+                try{
                 nilai = Double.parseDouble(input);
+                }catch (Exception e){
+                    System.out.println("[ERROR]" + e);
+                }
             }catch(IOException e){
                 //output error
                 System.out.println("[ERROR] " + e);
@@ -56,7 +60,7 @@ class Tugas{
         }else if(nilai > 50.0 && nilai <= 55.0){
             System.out.println("Nilai = D");
             //lanjut if
-        }else if(nilai <= 50.0){
+        }else if(nilai n<= 50.0){
             System.out.println("Nilai = E");
             //terakhir apabila semua nilai diatas false
             }else{
